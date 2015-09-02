@@ -65,5 +65,6 @@
     <orderEntry type="library" name="Hibernate" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="Struts 2" level="application" />
     <orderEntry type="library" name="spring 4.2.1" level="application" />
+    <orderEntry type="library" name="SSH lib" level="project" />
   </component>
 </module>
