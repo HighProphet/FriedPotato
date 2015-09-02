@@ -7,10 +7,14 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-  <head>
-    <title></title>
-  </head>
-  <body>
-
-  </body>
+<head>
+    <title>Index page</title>
+</head>
+<body>
+<h1>
+    <%
+        out.write("Hello World");
+    %>
+</h1>
+</body>
 </html>
