@@ -77,6 +77,7 @@ CREATE TABLE `in_order` (
   `total` float NOT NULL,
   KEY `fk3` (`oid`),
   KEY `fk4` (`mid`),
+  PRIMARY KEY (`cid`,`mid`),
   CONSTRAINT `fk3` FOREIGN KEY (`oid`) REFERENCES `order` (`id`) ON UPDATE CASCADE,
   CONSTRAINT `fk4` FOREIGN KEY (`mid`) REFERENCES `merchandise` (`id`) ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
